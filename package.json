@@ -1,5 +1,5 @@
 {
-  "name": "react-slash",
+  "name": "preact-slash",
   "version": "0.8.2",
   "main": "build/index.js",
   "files": [
