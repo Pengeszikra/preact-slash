@@ -1,12 +1,12 @@
 {
   "name": "react-slash",
-  "version": "0.8.0",
+  "version": "0.8.2",
   "main": "build/index.js",
   "files": [
     "src/index.js"
   ],
   "peerDependencies": {
-    "react": "^16.6.0"
+    "preact": "^10.3.0"
   },
   "scripts": {
     "build": "webpack --mode production"
@@ -21,7 +21,7 @@
     "url": "https://github.com/Pengeszikra/react-slash/issues"
   },
   "homepage": "https://github.com/Pengeszikra/react-slash#readme",
-  "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+  "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
@@ -33,6 +33,6 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "react": "^16.6.0"
+    "preact": "^10.3.0"
   }
 }

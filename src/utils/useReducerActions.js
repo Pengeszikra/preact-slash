@@ -1,4 +1,4 @@
-import { useReducer } from 'preact/hook';
+import { useReducer } from 'preact/hooks';
 
 export default (reducer, initialState, actionsObject) => {
   const [state, dispatch] = useReducer(reducer, initialState);
