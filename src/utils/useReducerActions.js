@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import { useReducer } from 'preact/hooks';
 
 export default (reducer, initialState, actionsObject) => {
